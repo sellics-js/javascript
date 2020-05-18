@@ -558,7 +558,7 @@ Other Style Guides
     const { left, top } = processInput(input);
     ```
 
-  <a name="destructuring--object-over-array"></a><a name="5.4"></a>
+  <a name="destructuring--single-level"></a><a name="5.4"></a>
   - [5.4](#destructuring--single-level) Use single-level destructuring over deep destructuring. In cases, where using multi-level destructuring, provide error handling (try catch) as defensive measure against undefined errors (related: Optional Chaining ).
 
     > Why? Single level destructuring is easier to read, encourages using a benefitial flat prop structure, avoids errors when deeply nested objects are not guaranteed to contain values
