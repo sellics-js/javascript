@@ -569,11 +569,11 @@ Other Style Guides
     const {a, b: {d: {e: f}}, c} = object;
 
     // good
-    const {a, b: {d: {e: f}}, c} = object;
+    const {a, c} = object;
     const f = object.?b.?d.?e;
 
     // good
-    // flat structure
+    // flat structure (we only use f, no need to carry b, d, e)
     function Component(object) {
       const {a, b, f, c} = object
     }
